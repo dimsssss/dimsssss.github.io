@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "26111e26109e35b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "토이 프로젝트/QB(Query Builder).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md",
+                "file": "토이 프로젝트/QB(Query Builder).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md",
+                "file": "토이 프로젝트/QB(Query Builder).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md"
+                "file": "토이 프로젝트/QB(Query Builder).md"
               }
             }
           },
@@ -156,14 +169,19 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bcbb2c12ae157c27",
+  "active": "f604919dd48704a7",
   "lastOpenFiles": [
+    "_config.yml",
+    "Gemfile.lock",
+    "Gemfile~",
+    "Gemfile",
+    "데이터 형에 따른 데이터베이스 선택.md",
+    "리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md",
+    "리팩터링/five-lines-of-code/추상화 수준을 맞추기 위한 함수 분해.md",
+    "리팩터링/five-lines-of-code/좋은 함수 이름의 속성.md",
     "index.html",
     "커링.md",
-    "리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md",
     "리팩터링",
-    "리팩터링/five-lines-of-code/좋은 함수 이름의 속성.md",
-    "리팩터링/five-lines-of-code/추상화 수준을 맞추기 위한 함수 분해.md",
     "리팩터링/five-lines-of-code/가독성 및 유지보수성 향상.md",
     "To Do.md",
     "리팩터링/five-lines-of-code",
@@ -183,15 +201,11 @@
     "'.",
     "토이 프로젝트/images",
     "토이 프로젝트/images",
-    "토이 프로젝트",
     "오픈소스/co.md",
     "강의/Fundmentals of Backend Engineering/Request and Response.md",
-    "오픈소스",
     "computer/불 논리.md",
     "computer/computer.md",
     "computer/불 연산.md",
-    "computer",
-    "강의/Fundmentals of Backend Engineering/Fundmentals of Backend Engineering.md",
-    "강의/Fundmentals of Backend Engineering"
+    "강의/Fundmentals of Backend Engineering/Fundmentals of Backend Engineering.md"
   ]
 }

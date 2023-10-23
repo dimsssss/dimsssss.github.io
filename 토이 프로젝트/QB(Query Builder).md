@@ -38,3 +38,75 @@ export { Query }
 ![](https://i.imgur.com/6Pw7fx7.png)
 
 wrapper로 만들다 보니 값이 중첩되어서  들어가는 상황이다. 중첩된 값을 하나로 평평하게 바꿔야 한다. 여기서 [[모나드(Monad)]]를 한번 적용해본다
+
+### bind
+DDL에 매칭되는 select, create, delete 메서드를 작업할 때 다음과 같은 에러가 발생하였다.
+```js
+
+import mysql from 'mysql2'
+import { compose, identity, join } from 'ramda'
+import { Query } from './query.js'
+import Either from './helper/either.js'
+
+  
+
+const init = compose(
+	identity,
+	mysql.createConnection
+)
+
+  
+
+const QB = function(option) {
+	this.option = option
+	this.connection = init(option)
+	this.query = null
+}
+
+  
+
+QB.prototype.run = async function(query) {
+	try {
+		return await Either.Some
+		.of()
+		.map(async () => this.connection.promise().query(query))
+	} catch (error) {
+		return Either.Nothing.of(error)
+	}
+}
+
+  
+
+QB.prototype.select = function(...columns) {
+	return compose(
+		async (query) => await this.run(query),
+		this.query.find
+		)(columns)
+}
+
+QB.prototype.from = QB.prototype.to
+
+export { QB }
+```
+
+```js
+import { compose, join, map } from "ramda"
+
+function Query(table = '') {
+	this.table = table
+}
+
+Query.of = function(query) {
+	return new Query(query)
+}
+
+Query.prototype.find = function(columns) {
+	return compose(
+		(query) => `SELECT ${query} FROM ${this.table}`,
+		join(',')
+		)(columns)
+}
+
+export { Query }
+
+```
