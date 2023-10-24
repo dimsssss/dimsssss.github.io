@@ -171,6 +171,7 @@
   },
   "active": "26111e26109e35b0",
   "lastOpenFiles": [
+    "assets/css/main.scss",
     "assets/css/main.css",
     "assets/css",
     "_config.yml~",
@@ -188,7 +189,6 @@
     "Gemfile.lock",
     "Gemfile~",
     "_posts/2023-10-24-welcome-to-jekyll.markdown",
-    "_posts",
     "데이터 형에 따른 데이터베이스 선택.md",
     "리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md",
     "리팩터링/five-lines-of-code/추상화 수준을 맞추기 위한 함수 분해.md",
