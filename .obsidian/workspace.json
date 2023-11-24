@@ -4,18 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "5a115d67081787c1",
+        "id": "e1998b01224c5831",
         "type": "tabs",
         "children": [
           {
-            "id": "7ee22c24486f16ce",
+            "id": "1632bcc037e3c3c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e56aa5ac4ad51b2",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "23c1ae21dc1859e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-11-24-제 1 정규화.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -81,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2023-11-24-제 1 정규화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2023-11-24-제 1 정규화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2023-11-24-제 1 정규화.md"
+              }
             }
           },
           {
@@ -148,8 +177,30 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7ee22c24486f16ce",
+  "active": "f604919dd48704a7",
   "lastOpenFiles": [
+    "데이터베이스/제 1 정규화.md",
+    "_posts/2023-11-24-제 1 정규화.md",
+    "무제 파일.md",
+    "데이터베이스",
+    "Solving.md",
+    "README.md",
+    "테스트/어떤 테스트 코드를 작성 해야 할까?.md",
+    "토이 프로젝트/QB(Query Builder).md",
+    "테스트",
+    "자바스크립트/함수형 프로그래밍과 클래스.md",
+    "함수형 프로그래밍/펑터(Functor).md",
+    "함수형 프로그래밍/함수형 프로그래밍.md",
+    "자바스크립트/자바스크립트.md",
+    "데이터 형에 따른 데이터베이스 선택.md",
+    "자바스크립트",
+    "_posts/함수형 프로그래밍/2023-10-24-범주(Category Theory).md",
+    "_posts/함수형 프로그래밍/2023-10-24-펑터(Functor).md",
+    "함수형 프로그래밍/모나드(Monad).md",
+    "오픈소스/tarn.md",
+    "오픈소스/co.md",
+    "함수형 프로그래밍/범주(Category Theory).md",
+    "함수형 프로그래밍/커링.md",
     "_includes/head.html~",
     "_includes/head.html",
     "_includes",
@@ -157,10 +208,6 @@
     "_site/jekyll/update/welcome-to-jekyll",
     "_site/jekyll/update",
     "_site/jekyll",
-    "_site/펑터(Functor)/index.html",
-    "_site/펑터(Functor)",
-    "_site/범주(Category-Theory)/index.html",
-    "_site/범주(Category-Theory)",
     "_site/데이터 형에 따른 데이터베이스 선택.md",
     "_site/To Do.md",
     "_site/README.md",
@@ -168,24 +215,6 @@
     "_site/리팩터링/five-lines-of-code/좋은 함수 이름의 속성.md",
     "_site/리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md",
     "_site/리팩터링/five-lines-of-code/가독성 및 유지보수성 향상.md",
-    "_site/강의/Fundmentals of Backend Engineering/Request and Response.md",
-    "_site/강의/Fundmentals of Backend Engineering/Fundmentals of Backend Engineering.md",
-    "_site/함수형 프로그래밍/함수형 프로그래밍.md",
-    "_site/함수형 프로그래밍/펑터(Functor).md",
-    "_site/함수형 프로그래밍/커링.md",
-    "_site/함수형 프로그래밍/범주(Category Theory).md",
-    "_site/함수형 프로그래밍/모나드(Monad).md",
-    "_site/오픈소스/tarn.md",
-    "_site/오픈소스/co.md",
-    "_site/토이 프로젝트/QB(Query Builder).md",
-    "함수형 프로그래밍/함수형 프로그래밍.md",
-    "_posts/함수형 프로그래밍/함수형 프로그래밍.md",
-    "함수형 프로그래밍/범주(Category Theory).md",
-    "_posts/함수형 프로그래밍/2023-10-24-펑터(Functor).md",
-    "함수형 프로그래밍/펑터(Functor).md",
-    "_posts/함수형 프로그래밍/2023-10-24-범주(Category Theory).md",
-    "리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md",
-    "함수형 프로그래밍/모나드(Monad).md",
     "토이 프로젝트/images/스크린샷 2023-09-27 21-46-01.png"
   ]
 }

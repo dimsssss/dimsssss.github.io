@@ -9,6 +9,7 @@
   "attachmentFolderPath": "토이 프로젝트/images",
   "userIgnoreFilters": [
     "_posts/",
-    "_pages/"
+    "_pages/",
+    "_site/"
   ]
 }
