@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-11-24-제 1 정규화.md",
+                "file": "_posts/2023-11-25-nodejs 예외 처리.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-24-제 1 정규화.md",
+                "file": "_posts/2023-11-25-nodejs 예외 처리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-24-제 1 정규화.md",
+                "file": "_posts/2023-11-25-nodejs 예외 처리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-11-24-제 1 정규화.md"
+                "file": "_posts/2023-11-25-nodejs 예외 처리.md"
               }
             }
           },
@@ -179,8 +179,10 @@
   },
   "active": "f604919dd48704a7",
   "lastOpenFiles": [
-    "데이터베이스/제 1 정규화.md",
+    "자바스크립트/nodejs 예외 처리.md",
+    "_posts/2023-11-25-nodejs 예외 처리.md",
     "_posts/2023-11-24-제 1 정규화.md",
+    "데이터베이스/제 1 정규화.md",
     "무제 파일.md",
     "데이터베이스",
     "Solving.md",
@@ -213,8 +215,6 @@
     "_site/README.md",
     "_site/리팩터링/five-lines-of-code/추상화 수준을 맞추기 위한 함수 분해.md",
     "_site/리팩터링/five-lines-of-code/좋은 함수 이름의 속성.md",
-    "_site/리팩터링/five-lines-of-code/너무 많은 일을 하는 함수 분리하기.md",
-    "_site/리팩터링/five-lines-of-code/가독성 및 유지보수성 향상.md",
     "토이 프로젝트/images/스크린샷 2023-09-27 21-46-01.png"
   ]
 }
