@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/함수형 프로그래밍/2023-12-03-함수형 helper 메서드 만들기.md",
+                "file": "자바스크립트/자바스크립트.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,28 +35,12 @@
             "id": "23c1ae21dc1859e5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To Do.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "62df4e35fd62fac5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "함수형 프로그래밍/함수형 프로그래밍.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -122,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/함수형 프로그래밍/2023-12-03-함수형 helper 메서드 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/함수형 프로그래밍/2023-12-03-함수형 helper 메서드 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/함수형 프로그래밍/2023-12-03-함수형 helper 메서드 만들기.md"
-              }
+              "state": {}
             }
           },
           {
@@ -193,18 +173,24 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f604919dd48704a7",
+  "active": "23c1ae21dc1859e5",
   "lastOpenFiles": [
+    "_posts/2023-12-05-Monorepo Multi project.md",
+    "To Do.md",
+    "형상 관리/Monorepo Multi project.md",
+    "형상 관리",
+    "코드에 대한 인식의 변화.md",
+    "데이터 형에 따른 데이터베이스 선택.md",
+    "함수형 프로그래밍/함수형 프로그래밍.md",
+    "Prisma 걷어내기.md",
+    "SQL 문을 코드에 넣으면?.md",
+    "함수형 프로그래밍/this.md",
+    "자바스크립트/자바스크립트.md",
+    "README.md",
     "함수형 프로그래밍/함수형 helper 메서드 만들기.md",
     "_posts/함수형 프로그래밍/2023-12-03-함수형 helper 메서드 만들기.md",
-    "함수형 프로그래밍/함수형 프로그래밍.md",
     "함수형 프로그래밍/모나드(Monad).md",
-    "SQL 문을 코드에 넣으면?.md",
-    "코드에 대한 인식의 변화.md",
-    "Prisma 걷어내기.md",
-    "To Do.md",
     "_posts/2023-11-25-nodejs 예외 처리.md",
-    "README.md",
     "자바스크립트/nodejs 예외 처리.md",
     "_posts/2023-11-24-제 1 정규화.md",
     "데이터베이스/제 1 정규화.md",
@@ -215,22 +201,16 @@
     "테스트",
     "자바스크립트/함수형 프로그래밍과 클래스.md",
     "함수형 프로그래밍/펑터(Functor).md",
-    "자바스크립트/자바스크립트.md",
-    "데이터 형에 따른 데이터베이스 선택.md",
     "자바스크립트",
     "_posts/함수형 프로그래밍/2023-10-24-범주(Category Theory).md",
     "_posts/함수형 프로그래밍/2023-10-24-펑터(Functor).md",
     "오픈소스/tarn.md",
-    "오픈소스/co.md",
-    "함수형 프로그래밍/범주(Category Theory).md",
-    "함수형 프로그래밍/커링.md",
     "_includes/head.html~",
     "_includes/head.html",
     "_includes",
     "_site/jekyll/update/welcome-to-jekyll/index.html",
     "_site/jekyll/update/welcome-to-jekyll",
     "_site/jekyll/update",
-    "_site/jekyll",
     "토이 프로젝트/images/스크린샷 2023-09-27 21-46-01.png"
   ]
 }
