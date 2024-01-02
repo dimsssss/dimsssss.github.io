@@ -69,3 +69,4 @@ JWT는 입장권에 비유를 할 수 있다. 예를 들어 한 사람이 동물
 토큰이 노출되었을 때 동일한 포맷(.을 기준으로 header, payload, signature)인데 길이가 다르다면 힌트를 준다는 생각을 하게 되었고 길이를 맞추는 것이 낫다는 생각을 하게 되었다.
 
 추가적으로 accessToken을 발급할 때의 secret과 refreshToken을 발급할 때의 secret을 다르게 하는게 더 좋을 것 같다는 생각이 들어서 secret을 다르게 적용하였다.
+[수정 코드](https://github.com/dimsssss/authentication/commit/cace39e41a9addfdc59fbac4d561bdf95432f88a)
