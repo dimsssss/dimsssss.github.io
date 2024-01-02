@@ -61,3 +61,11 @@ JWT는 입장권에 비유를 할 수 있다. 예를 들어 한 사람이 동물
 
 끝으로 Oauth2.0과 OpenId Connect(OIDC)가 비슷한데 무슨 차이가 있을까 싶어서 찾아본 내용이다.
 [## OAuth 2.0 vs OpenID Connect vs SAML](https://www.okta.com/identity-101/whats-the-difference-between-oauth-openid-connect-and-saml/#:~:text=The%20Differences%20Between%20Standards,industry%20standards%20for%20federated%20authentication.)
+
+## 추가
+### 인증 프로세스 수정
+발행한 access_token과 refresh_token의 길이가 다르다는 것을 발견했다. access_token과 refresh_token을 쌍으로 발급해서 재발급 할 때 발급한 쌍이 같은지 확인하는 과정이 있었다. 발급한 access_token을 refresh_token payload에 추가를 했기 때문에 발생하였다. 
+
+토큰이 노출되었을 때 동일한 포맷(.을 기준으로 header, payload, signature)인데 길이가 다르다면 힌트를 준다는 생각을 하게 되었고 길이를 맞추는 것이 낫다는 생각을 하게 되었다.
+
+추가적으로 accessToken을 발급할 때의 secret과 refreshToken을 발급할 때의 secret을 다르게 하는게 더 좋을 것 같다는 생각이 들어서 secret을 다르게 적용하였다.
