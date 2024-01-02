@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-12-29-Authentication.md",
+                "file": "인증/Authentication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-12-29-Authentication.md",
+                "file": "인증/Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-12-29-Authentication.md",
+                "file": "인증/Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-12-29-Authentication.md"
+                "file": "인증/Authentication.md"
               }
             }
           },
@@ -158,10 +158,15 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "f604919dd48704a7",
+  "active": "c799e5c25d9020ed",
   "lastOpenFiles": [
-    "인증/Authentication.md",
+    "To Do.md",
+    "테스트/어떤 테스트 코드를 작성 해야 할까?.md",
+    "도메인/비지니스 로직을 분리.md",
+    "도메인",
+    "README.md",
     "_posts/2023-12-29-Authentication.md",
+    "인증/Authentication.md",
     "인증/인증(Authentication).md",
     "인증",
     "_posts/2023-12-05-Monorepo Multi package.md",
@@ -169,7 +174,6 @@
     "형상 관리/Monorepo Multi package.md",
     "자바스크립트/함수형 프로그래밍과 클래스.md",
     "자바스크립트/AbortController(nodejs).md",
-    "To Do.md",
     "형상 관리",
     "코드에 대한 인식의 변화.md",
     "데이터 형에 따른 데이터베이스 선택.md",
@@ -178,7 +182,6 @@
     "SQL 문을 코드에 넣으면?.md",
     "함수형 프로그래밍/this.md",
     "자바스크립트/자바스크립트.md",
-    "README.md",
     "함수형 프로그래밍/함수형 helper 메서드 만들기.md",
     "_posts/함수형 프로그래밍/2023-12-03-함수형 helper 메서드 만들기.md",
     "함수형 프로그래밍/모나드(Monad).md",
@@ -187,15 +190,12 @@
     "_posts/2023-11-24-제 1 정규화.md",
     "데이터베이스/제 1 정규화.md",
     "데이터베이스",
-    "Solving.md",
-    "테스트/어떤 테스트 코드를 작성 해야 할까?.md",
     "테스트",
     "자바스크립트",
     "_includes/head.html~",
     "_includes/head.html",
     "_includes",
     "_site/jekyll/update/welcome-to-jekyll/index.html",
-    "_site/jekyll/update/welcome-to-jekyll",
     "토이 프로젝트/images/스크린샷 2023-09-27 21-46-01.png"
   ]
 }
