@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/함수형 프로그래밍/2024-01-02-참조 투명성.md",
+                "file": "To Do.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1fb766d4cb525936",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-12-29-Authentication.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/함수형 프로그래밍/2024-01-02-참조 투명성.md",
+                "file": "_posts/2023-12-29-Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/함수형 프로그래밍/2024-01-02-참조 투명성.md",
+                "file": "_posts/2023-12-29-Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/함수형 프로그래밍/2024-01-02-참조 투명성.md"
+                "file": "_posts/2023-12-29-Authentication.md"
               }
             }
           },
@@ -185,12 +197,15 @@
   },
   "active": "f604919dd48704a7",
   "lastOpenFiles": [
-    "함수형 프로그래밍/참조 투명성.md",
-    "_posts/함수형 프로그래밍/2024-01-02-참조 투명성.md",
     "인증/Authentication.md",
-    "_posts/2023-12-29-Authentication.md",
+    "테스트/runInBand.md",
     "To Do.md",
+    "_posts/함수형 프로그래밍/2024-01-02-참조 투명성.md",
+    "코드에 대한 인식의 변화.md",
     "테스트/어떤 테스트 코드를 작성 해야 할까?.md",
+    "의존성 탐색.md",
+    "함수형 프로그래밍/참조 투명성.md",
+    "_posts/2023-12-29-Authentication.md",
     "도메인/비지니스 로직을 분리.md",
     "도메인",
     "README.md",
@@ -202,7 +217,6 @@
     "자바스크립트/함수형 프로그래밍과 클래스.md",
     "자바스크립트/AbortController(nodejs).md",
     "형상 관리",
-    "코드에 대한 인식의 변화.md",
     "데이터 형에 따른 데이터베이스 선택.md",
     "함수형 프로그래밍/함수형 프로그래밍.md",
     "Prisma 걷어내기.md",
@@ -212,8 +226,6 @@
     "함수형 프로그래밍/함수형 helper 메서드 만들기.md",
     "_posts/함수형 프로그래밍/2023-12-03-함수형 helper 메서드 만들기.md",
     "함수형 프로그래밍/모나드(Monad).md",
-    "_posts/2023-11-25-nodejs 예외 처리.md",
-    "자바스크립트/nodejs 예외 처리.md",
     "데이터베이스",
     "테스트",
     "자바스크립트",
