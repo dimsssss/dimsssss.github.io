@@ -1,7 +1,6 @@
 ---
-layout: post
 title:  "범주(Category)"
-date:   2023-10-24 01:21:38 +0900
+date: 2023-10-24T01:21:38+09:00
 categories: 
     - 함수형 프로그래밍
 tags:
