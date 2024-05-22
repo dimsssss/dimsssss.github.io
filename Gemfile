@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gem install bundler
 
-bundle install
+gem bundle install
 
 gem "github-pages", group: :jekyll_plugins
 
