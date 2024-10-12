@@ -65,6 +65,7 @@ public class UserEntity {
 [^2]: https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html#innodb-next-key-locks
 [^3]: Gap locking is not needed for statements that lock rows using a unique index to search for a unique row. (This does not include the case that the search condition includes only some columns of a multiple-column unique index; in that case, gap locking does occur.) For example, if the `id` column has a unique index, the following statement uses only an index-record lock for the row having `id` value 100 and it does not matter whether other sessions insert rows in the preceding gap:
 
+
 ```sql
 SELECT * FROM child WHERE id = 100;
 ```
