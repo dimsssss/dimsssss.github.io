@@ -55,7 +55,7 @@ public class UserEntity {
 }
 ```
 
-잠금의 측면으로 봤을 때 유저의 프로필을 조회하면 `INSERT`로 view count가 쌓이게 되어 잠금과 관련된 지연 이슈는 없다. 또한 `UPDATE`하려는 행이 유일하다면 `Gap Lock`[^1], `Next-Key Lock`[^2] 이 없기 때문에 update할 때도 유리하다[^3] (그러나 transaction isolation level이 3단계 이상이면 지연이 발생할 수 있다)
+잠금의 측면으로 봤을 때 유저의 프로필을 조회하면 `INSERT`로 view count가 쌓이게 되어 잠금과 관련된 지연 이슈는 없다. 또한 `UPDATE`하려는 행이 유일하다면 `Gap Lock`[^1], `Next-Key Lock`[^2] 이 없기 때문에 update할 때도 유리하다[^1] (그러나 transaction isolation level이 3단계 이상이면 지연이 발생할 수 있다)
 
 결과적으로 `SELECT` , `UPDATE`가 발생하더라도 데이터베이스에서는 잠금에 대한 지연 없이 쿼리가 동작할 수 있다.
 
@@ -63,10 +63,3 @@ public class UserEntity {
 
 [^1]: https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html#innodb-gap-locks
 [^2]: https://dev.mysql.com/doc/refman/8.0/en/innodb-locking.html#innodb-next-key-locks
-[^3]: Gap locking is not needed for statements that lock rows using a unique index to search for a unique row. (This does not include the case that the search condition includes only some columns of a multiple-column unique index; in that case, gap locking does occur.) For example, if the `id` column has a unique index, the following statement uses only an index-record lock for the row having `id` value 100 and it does not matter whether other sessions insert rows in the preceding gap:
-
-
-```sql
-SELECT * FROM child WHERE id = 100;
-```
-
